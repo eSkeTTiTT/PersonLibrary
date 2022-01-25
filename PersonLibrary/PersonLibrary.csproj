@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\Лупа.png" />
+    <None Remove="Data\Лупа_темная.png" />
+    <None Remove="Data\Мусорка_светлая.png" />
+    <None Remove="Data\Мусорка_темная.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\Лупа.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Лупа_темная.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Мусорка_светлая.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Мусорка_темная.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVVM.Base\MVVM.Base.csproj" />
+  </ItemGroup>
+
+</Project>

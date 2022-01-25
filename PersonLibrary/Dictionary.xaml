@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <BitmapImage x:Key="DeleteImage1" UriSource="Data/Мусорка_светлая.png" />
+    <BitmapImage x:Key="DeleteImage2" UriSource="Data/Мусорка_темная.png" />
+    <BitmapImage x:Key="SearchImage1" UriSource="Data/Лупа.png" />
+    <BitmapImage x:Key="SearchImage2" UriSource="Data/Лупа_темная.png" />
+</ResourceDictionary>
